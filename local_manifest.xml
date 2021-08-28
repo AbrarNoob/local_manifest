@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Trees -->
+  <project path="device/xiaomi/lavender" name="AbrarNoob/android_device_xiaomi_lavender.git" remote="github" revision="bliss" />
+  <project path="vendor/xiaomi/lavender" name="PixelPlusUI-Devices/android_vendor_xiaomi_lavender.git" remote="github" revision="master" />
+  <project path="kernel/xiaomi/lavender" name="Prashant-1695/nexus_kernel_xiaomi_lavender.git" remote="github" revision="nexus" />
+  
+  
+</manifest>
