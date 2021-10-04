@@ -4,9 +4,9 @@
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
 
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-1" remote="AbrarNoob" revision="r" />
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="spark" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="AbrarNoob" revision="eleven" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="AbrarNoob" revision="oldcam-eas" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
   
   
 </manifest>
