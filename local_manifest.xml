@@ -9,21 +9,21 @@
 
   <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="awaken" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-2" remote="AbrarNoob" revision="voltage" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="AbrarNoob" revision="eleven" />
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
  
    <!--removehals-->
 	
-   <remove-project name="android_hardware_qcom_audio"/>
-   <remove-project name="android_hardware_qcom_display" />
-   <remove-project name="android_hardware_qcom_media" />
+   <remove-project name="android_hardware_qcom-caf_msm8998_audio"/>
+   <remove-project name="android_hardware_qcom-caf_msm8998_media" />
+   <remove-project name="android_hardware_qcom-caf_msm8998_display" />
 	
    <!--clonehals-->
 	
-   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
-   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
-   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_sdm660_audio" remote="AbrarNoob" revision="12" />
+   <project path="hardware/qcom-caf/msm8998/display" name="hals_msm8998" remote="AbrarNoob" revision="display" />
+   <project path="hardware/qcom-caf/msm8998/media" name="hals_msm8998" remote="AbrarNoob" revision="media" />
 
 
 </manifest>
