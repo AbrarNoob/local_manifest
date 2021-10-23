@@ -17,13 +17,13 @@
 
     <!-- Replacements -->
   
-  <remove-project name="android_hardware_qcom-caf_display"/>
+  <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_sdm660_display" remote="IMMANUEL44" revision="12"/>
   
-  <remove-project name="android_hardware_qcom-caf_media"/>
+  <remove-project name="android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_sdm660_media" remote="IMMANUEL44" revision="12"/>
 
-  <remove-project name="android_hardware_qcom-caf_audio"/>
+  <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_sdm660_audio" remote="IMMANUEL44" revision="12"/>
 
   
