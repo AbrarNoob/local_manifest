@@ -3,9 +3,6 @@
 
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
-    
-      <remote name="IMMANUEL44"
-          fetch="https://github.com/IMMANUEL44" />
 
   
     <!-- Trees -->
@@ -18,13 +15,13 @@
     <!-- Replacements -->
   
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_sdm660_display" remote="IMMANUEL44" revision="12"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="AbrarNoob" revision="12"/>
   
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_sdm660_media" remote="IMMANUEL44" revision="12"/>
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="AbrarNoob" revision="12"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_sdm660_audio" remote="IMMANUEL44" revision="12"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="AbrarNoob" revision="12"/>
 
   
 
