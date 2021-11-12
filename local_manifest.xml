@@ -7,7 +7,7 @@
   
     <!-- Trees -->
 
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender-3" remote="AbrarNoob" revision="twelve" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-S" remote="AbrarNoob" revision="evox" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-S" remote="AbrarNoob" revision="twelve" />
   <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
  
