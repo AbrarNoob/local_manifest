@@ -3,7 +3,9 @@
 
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
-
+     
+      <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
   
     <!-- Trees -->
 
@@ -24,6 +26,10 @@
   
   <remove-project name="platform_system_sepolicy"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="AbrarNoob" revision="test"/>
+
+    <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
 
