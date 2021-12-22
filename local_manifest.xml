@@ -26,7 +26,7 @@
   <remove-project name="platform_system_sepolicy"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="AbrarNoob" revision="test"/>
 
-  <remove-project name="platform_packages_apps"/>
+  <remove-project name="packages_apps"/>
 
 </manifest>
 
