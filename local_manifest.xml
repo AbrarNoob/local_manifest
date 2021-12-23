@@ -27,8 +27,8 @@
   <remove-project name="platform_system_sepolicy"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="AbrarNoob" revision="test"/>
 
-  <remove-project name="platform_device_qcom_sepolicy_vndr"/>
-  <project path="device/qcom/sepolicy/vndr" name="platform_device_qcom_sepolicy_vndr" remote="AbrarNoob" revision="12"/>
+  <remove-project name="platform_device_qcom_sepolicy-legacy-um"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="AbrarNoob" revision="12"/>
     
     <!-- Toolchain -->
 
