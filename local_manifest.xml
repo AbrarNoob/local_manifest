@@ -4,12 +4,14 @@
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
 
+      <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
   
     <!-- Trees -->
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-S" remote="AbrarNoob" revision="evox" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-S" remote="AbrarNoob" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="AbrarNoob" revision="oldcam-eas" />
  
 
     <!-- Replacements -->
@@ -25,5 +27,11 @@
 
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="AbrarNoob" revision="arrow-12.0"/>
+
+    <!-- Toolchain -->
+   
+   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+
 
 </manifest>
