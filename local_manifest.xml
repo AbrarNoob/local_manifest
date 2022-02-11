@@ -6,12 +6,15 @@
      
       <remote name="kdrag0n" 
           fetch="https://github.com/kdrag0n" />
+
+      <remote name="ancient"
+          fetch="https://github.com/ancient-devices" />
   
     <!-- Trees -->
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-S" remote="AbrarNoob" revision="octavi" />
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-S" remote="AbrarNoob" revision="evo" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="AbrarNoob" revision="eas-main" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ancient" revision="twelve" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="ancient" revision="twelve" />
  
     <!-- Replacements -->
   
