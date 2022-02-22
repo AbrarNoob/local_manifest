@@ -30,9 +30,6 @@
   <remove-project name="platform_system_sepolicy"/>
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="AbrarNoob" revision="test"/>
 
-  <remove-project name="platform_vendor_octavi"/>
-  <project path="vendor/octavi" name="vendor_octavi" remote="AbrarNoob" revision="12.1"/>
-  
     <!-- Toolchain -->
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
