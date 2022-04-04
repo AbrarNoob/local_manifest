@@ -14,13 +14,9 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth-1" remote="AbrarNoob" revision="12.1" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="dark" revision="12.1" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="AbrarNoob" revision="12.1" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="dark" revision="12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging2" />
-
-  <remove-project name="android_vendor_nxp_opensource_commonsys_packages_apps_Nfc"/>
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="dark" revision="snowcone"/>
-
 
 
 </manifest>
