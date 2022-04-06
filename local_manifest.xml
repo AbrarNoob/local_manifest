@@ -4,6 +4,9 @@
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
 
+     <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
       <remote name="Emanuel"
           fetch="https://github.com/EmanuelCN" />
 
@@ -18,5 +21,7 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="dark" revision="12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging2" />
 
+    <!-- Toolchain -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
 </manifest>
