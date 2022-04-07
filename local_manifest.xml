@@ -24,9 +24,5 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="dark" revision="12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging2" />
 
-  <remove-project name="hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.0"/>
-
-
 
 </manifest>
