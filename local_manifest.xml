@@ -28,13 +28,13 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi" remote="dark" revision="12.1" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging2" />
 
-  <remove-project name="android_hardware_qcom-caf_audio_sm8250"/>
+  <remove-project name="hardware_qcom-caf_audio_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
-  <remove-project name="android_hardware_qcom-caf_media_sm8250"/>
+  <remove-project name="hardware_qcom-caf_media_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
-  <remove-project name="android_hardware_qcom-caf_display_sm8250"/>
+  <remove-project name="hardware_qcom-caf_display_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
 
 </manifest>
