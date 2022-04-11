@@ -16,8 +16,11 @@
       <remote name="ar"
           fetch="https://github.com/drkphnx" />
 
-       <remote name="pp"
+       <remote name="ar"
           fetch="https://github.com/ArrowOS" />
+      
+       <remote name="pp"
+          fetch="https://github.com/PixelPlusUI-Devices" />
 
 
 
