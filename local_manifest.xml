@@ -24,7 +24,7 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth-2" remote="AbrarNoob" revision="snowcone" />
-  <project path="device/xiaomi/sm8250-common" name="alioth_device_xiaomi_sm8250-common" remote="pp" revision="snowcone" />
+  <project path="device/xiaomi/sm8250-common" name="alioth_device_xiaomi_sm8250-common" remote="AbrarNoob" revision="snowcone" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="pp" revision="snowcone" />
   <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="pp" revision="snowcone" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging3" />
