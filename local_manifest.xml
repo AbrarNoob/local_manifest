@@ -13,8 +13,8 @@
       <remote name="Emanuel"
           fetch="https://github.com/EmanuelCN" />
 
-      <remote name="art"
-          fetch="https://github.com/drkphnx" />
+      <remote name="ray"
+          fetch="https://github.com/raystef66" />
 
        <remote name="ar"
           fetch="https://github.com/ArrowOS" />
@@ -29,7 +29,7 @@
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="test" />
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="test" />
   <project path="vendor/xiaomi" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="test" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging3" />
+  <project path="kernel/xiaomi/alioth" name="InfiniR_kernel_alioth" remote="ray" revision="12.1" />
 
   <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
