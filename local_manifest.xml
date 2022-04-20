@@ -43,10 +43,10 @@
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
 
-  <remove-project name="android_frameworks_base"/>
+  <remove-project name="frameworks_base"/>
   <project path="frameworks/base" name="frameworks_base" remote="alt" revision="12.1"/>
   
-  <remove-project name="android_packages_apps_BlazeHouse"/>
+  <remove-project name="packages_apps_BlazeHouse"/>
   <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="alt" revision="12.1"/>
   
 
