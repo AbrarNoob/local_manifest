@@ -13,7 +13,7 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-S" remote="AbrarNoob" revision="arc" />
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-S" remote="AbrarNoob" revision="twelve" />
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender-S" remote="AbrarNoob" revision="evo" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nxp" revision="a12" />
  
     <!-- Replacements -->
