@@ -27,9 +27,5 @@
   <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="AbrarNoob" revision="12"/>
   
-    <!-- Toolchain -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
 </manifest>
 
