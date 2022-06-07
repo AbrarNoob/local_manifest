@@ -32,8 +32,8 @@
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="12L" />
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="a" />
   <project path="vendor/xiaomi" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="12L" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="lel" revision="android12-stable" />
-
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging5" />
+  
   <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
