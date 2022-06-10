@@ -43,6 +43,9 @@
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
 
+  <remove-project name="android_hardware_xiaomi"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="AbrarNoob" revision="snowcone-12.1"/>
+
   <!-- Toolchain -->
    
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
