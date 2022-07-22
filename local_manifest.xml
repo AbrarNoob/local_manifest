@@ -29,21 +29,20 @@
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="12L" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="fluid" />
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="12L" />
   <project path="vendor/xiaomi" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="12L" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="lel" revision="android12-stable" />
 
-  <remove-project name="android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
-  <remove-project name="android_hardware_qcom_media"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
-  <remove-project name="android_hardware_qcom_display"/>
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
 
-  <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="AbrarNoob" revision="snowcone-12.1"/>
 
   <!-- Toolchain -->
