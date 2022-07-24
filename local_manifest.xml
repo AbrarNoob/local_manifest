@@ -25,6 +25,9 @@
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
 
+       <remote name="los"
+          fetch="https://github.com/LineageOS" />
+
 
 
     <!-- Trees -->
@@ -44,6 +47,8 @@
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
 
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="AbrarNoob" revision="snowcone-12.1"/>
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-19.0"/>
+
 
   <!-- Toolchain -->
    
