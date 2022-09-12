@@ -25,6 +25,9 @@
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
 
+       <remote name="qp" 
+          fetch="https://gitlab.com/varunhardgamer" />
+
 
 
     <!-- Trees -->
@@ -50,7 +53,7 @@
 
   <!-- Toolchain -->
    
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="qp" revision="16" clone-depth="1" />
 
 
 </manifest>
