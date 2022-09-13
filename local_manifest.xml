@@ -51,9 +51,5 @@
 
   <remove-project name="hardware_oneplus"/>
 
-  <!-- Toolchain -->
-   
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="qp" revision="16" clone-depth="1" />
-
 
 </manifest>
