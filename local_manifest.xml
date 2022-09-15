@@ -13,19 +13,6 @@
       <remote name="Em"
           fetch="https://github.com/EmanuelCN" />
 
-      <remote name="alt"
-          fetch="https://github.com/afterallafk" />
-   
-      <remote name="ray"
-          fetch="https://github.com/raystef66" />
-
-       <remote name="ar"
-          fetch="https://github.com/ArrowOS" />
-      
-       <remote name="pp"
-          fetch="https://github.com/PixelPlusUI-Devices" />
-
-
 
     <!-- Trees -->
 
@@ -35,17 +22,5 @@
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="T" />
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Em" revision="T" />
 
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
-  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
-
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
-
-  <remove-project name="hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="AbrarNoob" revision="snowcone-12.1"/>
-
-
+ 
 </manifest>
