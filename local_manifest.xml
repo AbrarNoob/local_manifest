@@ -22,5 +22,11 @@
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="T" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="Em" revision="T" />
 
+    <!-- Toolchain -->
+   
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+
+
  
 </manifest>
