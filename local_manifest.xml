@@ -16,9 +16,6 @@
       <remote name="ar"
           fetch="https://github.com/ArrowOS" />     
 
-      <remote name="xd"
-          fetch="https://github.com/xdroid-oss" />
-
       <remote name="qp" 
           fetch="https://gitlab.com/varunhardgamer" />
 
@@ -45,6 +42,9 @@
    
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/> 
+
+  <remove-project name="device_qcom_sepolicy"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="AbrarNoob" revision="13"/> 
 
 
   <!-- Toolchain -->
