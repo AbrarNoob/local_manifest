@@ -41,11 +41,7 @@
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="ar" revision="arrow-13.0-caf-sm8250"/> 
    
   <remove-project name="hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/> 
-
-  <remove-project name="device_qcom_sepolicy"/>
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="AbrarNoob" revision="13"/> 
-
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
 
   <!-- Toolchain -->
    
