@@ -43,9 +43,4 @@
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
 
-  <!-- Toolchain -->
-   
-  <project path="prebuilts/clang/host/linux-x86/trb_clang" name="trb_clang" remote="qp" revision="16" clone-depth="1" />
-
-
 </manifest>
