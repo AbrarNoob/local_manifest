@@ -43,10 +43,8 @@
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="ar" revision="arrow-13.0-caf-sm8250"/> 
    
-  <remove-project name="hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
+  <!-- Clang -->
 
-  <!--Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="arr" revision="master" clone-depth="1" />
 
  
