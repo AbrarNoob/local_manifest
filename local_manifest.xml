@@ -43,9 +43,8 @@
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="ar" revision="arrow-13.0-caf-sm8250"/> 
    
-  <!-- Clang -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="arr" revision="master" clone-depth="1" />
-
+  <!-- Toolchain -->
+   
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
  
 </manifest>
