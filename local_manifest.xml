@@ -32,10 +32,10 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="blaze" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="tt" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="blaze" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Em" revision="T" />
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="T" />
-  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="lel" revision="android12-next" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="Em" revision="staging" />
 
   <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="ar" revision="arrow-13.0-caf-sm8250"/>
@@ -48,5 +48,10 @@
  
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
+
+  <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
 
 </manifest>
