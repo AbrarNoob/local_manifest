@@ -40,11 +40,4 @@
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
 
-     <!-- Toolchain -->
-
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
-
-
-
 </manifest>
