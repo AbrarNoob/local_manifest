@@ -4,8 +4,8 @@
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
 
-     <remote name="kdrag0n" 
-          fetch="https://github.com/kdrag0n" />
+     <remote name="pc" 
+          fetch="https://github.com/PixelPlusUI-CAF" />
 
      <remote name="lel" 
           fetch="https://github.com/UtsavBalar1231" />
@@ -38,15 +38,13 @@
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
 
   <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dp" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pc" revision="snowcone-12.1"/>
 
   <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dp" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pc" revision="snowcone-12.1"/>
 
   <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dp" revision="aosp-13"/> 
-   
-
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pc" revision="snowcone-12.1"/> 
 
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
