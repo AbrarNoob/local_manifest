@@ -19,8 +19,8 @@
       <remote name="void"
           fetch="https://github.com/VoidUI-Devices" />
 
-      <remote name="qp" 
-          fetch="https://gitlab.com/varunhardgamer" />
+      <remote name="dp" 
+          fetch="https://github.com/drkphnx" />
     
        <remote name="lel" 
           fetch="https://github.com/UtsavBalar1231" />
@@ -36,6 +36,17 @@
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Em" revision="T" />
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="T" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
+
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dp" revision="aosp-13"/>
+
+  <remove-project name="android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dp" revision="aosp-13"/>
+
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dp" revision="aosp-13"/> 
+   
+
 
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
