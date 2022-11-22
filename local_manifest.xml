@@ -32,7 +32,7 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="blaze" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="T" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="blaze" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Em" revision="T" />
   <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="T" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
