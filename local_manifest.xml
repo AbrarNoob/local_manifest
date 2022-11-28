@@ -27,7 +27,10 @@
 
       <remote name="los"
           fetch="https://github.com/LineageOS" />
-
+     
+      <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
+ 
      
     <!-- Trees -->
 
@@ -50,5 +53,7 @@
 
   <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
