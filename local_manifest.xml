@@ -22,16 +22,6 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="void" revision="aosp-13" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
 
-  <remove-project name="hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="caf" revision="aosp-13"/>
-
-  <remove-project name="hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="caf" revision="aosp-13"/>
-
-  <remove-project name="hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="caf" revision="aosp-13"/> 
-   
-
 
  <!-- Toolchain -->
    
