@@ -22,6 +22,11 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="void" revision="aosp-13" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
 
+  <remove-project name="vendor_voltage"/>
+  <project path="vendor/voltage" name="vendor_voltage" remote="AbrarNoob" revision="13"/> 
+   
+
+
 
  <!-- Toolchain -->
    
