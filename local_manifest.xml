@@ -15,7 +15,11 @@
 
      <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
+    
+      <remote name="sup"
+          fetch="https://github.com/SuperiorOS" />
    
+  
  
     <!-- Trees -->
 
@@ -34,7 +38,9 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="caf" revision="aosp-13"/> 
-
+ 
+  <remove-project name="system_sepolicy"/>
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="sup" revision="thirteen"/> 
 
  <!-- Toolchain -->
    
