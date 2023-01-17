@@ -23,8 +23,8 @@
  
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="T" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="vos" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="banana" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="ban" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="void" revision="aosp-13" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="aosp-13" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
@@ -38,11 +38,5 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="caf" revision="aosp-13"/> 
- 
-  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
-
- <!-- Toolchain -->
-   
-  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="snapdragon-clang" remote="vv" revision="aosp-13" clone-depth="1" />
  
 </manifest>
