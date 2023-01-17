@@ -44,7 +44,5 @@
  <!-- Toolchain -->
    
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="snapdragon-clang" remote="vv" revision="aosp-13" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-
-
+ 
 </manifest>
