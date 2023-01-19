@@ -42,4 +42,8 @@
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
  
+  <!-- Toolchain -->
+   
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+
 </manifest>
