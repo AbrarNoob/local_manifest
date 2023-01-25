@@ -3,9 +3,12 @@
 
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
+  
+     <remote name="alt"
+          fetch="https://github.com/AbrarNoobAlt" />
 
-      <remote name="void"
-          fetch="https://github.com/VoidUI-Devices" />
+      <remote name="sp"
+          fetch="https://github.com/Spark-Devices" />
 
       <remote name="vv"
           fetch="https://gitlab.com/VoidUI" />
@@ -28,18 +31,18 @@
  
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="banana" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="ban" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="void" revision="aosp-13" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="aosp-13" />
+  <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="alt" revision="pyro" />
+  <project path="device/xiaomi/sm8250-common" name="alioth_device_xiaomi_sm8250-common" remote="alt" revision="pyro" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
+  <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 
 
   <remove-project name="ricedroidOSS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="caf" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
 
   <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="caf" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
 
   <remove-project name="ricedroidOSS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
