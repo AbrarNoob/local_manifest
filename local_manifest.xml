@@ -47,8 +47,6 @@
   <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
 
    
-  <remove-project name="android_hardware_lineage_compat"/>
-
   <!-- Toolchain -->
    
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
