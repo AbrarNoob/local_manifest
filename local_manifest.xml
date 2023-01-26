@@ -39,8 +39,6 @@
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="caf" revision="aosp-13"/> 
  
-  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
-
  <!-- Toolchain -->
    
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="snapdragon-clang" remote="vv" revision="aosp-13" clone-depth="1" />
