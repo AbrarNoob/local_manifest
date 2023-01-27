@@ -38,13 +38,13 @@
   <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 
 
-  <remove-project name="ricedroidOSS/android_hardware_qcom_audio"/>
+  <remove-project name="ricedroidOSS/android_hardware_qcom_audio_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
 
-  <remove-project name="android_hardware_qcom_media"/>
+  <remove-project name="ricedroidOSS/android_hardware_qcom_media_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
 
-  <remove-project name="ricedroidOSS/android_hardware_qcom_display"/>
+  <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
  
   <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
