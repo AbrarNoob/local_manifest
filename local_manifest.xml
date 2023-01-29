@@ -39,7 +39,7 @@
 
 
   <remove-project name="ricedroidOSS/android_hardware_qcom_audio_sm8250"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="caf" revision="aosp-13"/>
 
   <remove-project name="ricedroidOSS/android_hardware_qcom_media_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
