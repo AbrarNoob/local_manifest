@@ -50,6 +50,10 @@
   <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250"/>
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
  
+  <remove-project name="android_system_sepolicy"/>
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="AbrarNoob" revision="13"/> 
+ 
+
   <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
 
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="pix" revision="arrow-12.0"/>
