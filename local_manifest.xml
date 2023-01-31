@@ -19,8 +19,8 @@
      <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
     
-      <remote name="drk"
-          fetch="https://gitlab.com/dark.phnx12" />
+      <remote name="abr"
+          fetch="https://gitlab.com/AbrarNoob" />
    
       <remote name="dark"
           fetch="https://github.com/drkphnx" />
@@ -54,7 +54,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="AbrarNoob" revision="13"/> 
  
 
-  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="drk" revision="stable"/>
+  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
 
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="pix" revision="arrow-12.0"/>
 
