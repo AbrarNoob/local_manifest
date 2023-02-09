@@ -3,57 +3,54 @@
 
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
+  
+     <remote name="alt"
+          fetch="https://github.com/AbrarNoobAlt" />
 
-     <remote name="kdrag0n" 
-          fetch="https://github.com/kdrag0n" />
+      <remote name="sp"
+          fetch="https://github.com/Spark-Devices" />
 
-     <remote name="lel" 
-          fetch="https://github.com/UtsavBalar1231" />
+      <remote name="pix"
+          fetch="https://github.com/ArrowOS" />
 
-      <remote name="Em"
-          fetch="https://github.com/EmanuelCN" />
+     <remote name="caf"
+          fetch="https://github.com/VoidUI-CAF" />
 
-      <remote name="ar"
-          fetch="https://github.com/ArrowOS" />     
-
-      <remote name="void"
-          fetch="https://github.com/VoidUI-Devices" />
-
-      <remote name="dp" 
-          fetch="https://github.com/drkphnx" />
-    
-       <remote name="lel" 
-          fetch="https://github.com/UtsavBalar1231" />
-
-      <remote name="los"
-          fetch="https://github.com/LineageOS" />
-     
-      <remote name="clang"
+     <remote name="clang"
           fetch="https://gitlab.com/Amritorock" />
+    
+      <remote name="abr"
+          fetch="https://gitlab.com/AbrarNoob" />
+   
+      <remote name="dark"
+          fetch="https://github.com/drkphnx" />
  
-     
+      <remote name="em"
+          fetch="https://github.com/EmanuelCN" />
+  
+ 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="blaze" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="T" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Em" revision="T" />
-  <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Em" revision="arrow" />
-  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="void" revision="aosp-13" />
+  <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="alt" revision="blaze" />
+  <project path="device/xiaomi/sm8250-common" name="alioth_device_xiaomi_sm8250-common" remote="alt" revision="pyro" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
+  <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+
 
   <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dp" revision="aosp-13"/>
-
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
+ 
   <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dp" revision="aosp-13"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
 
   <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dp" revision="aosp-13"/> 
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
+ 
+  <remove-project name="android_system_sepolicy"/>
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="AbrarNoob" revision="13"/> 
+ 
+
+  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
    
-
-
-  <remove-project name="hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20"/>
-
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-
 </manifest>
