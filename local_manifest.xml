@@ -41,9 +41,6 @@
   <remove-project name="android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
  
-  <remove-project name="android_vendor_qcom_opensource_interfaces"/>
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="caf" revision="aosp-12.1"/>
- 
   <remove-project name="android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
 
