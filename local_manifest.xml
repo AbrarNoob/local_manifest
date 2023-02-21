@@ -4,62 +4,26 @@
       <remote name="AbrarNoob"
           fetch="https://github.com/AbrarNoob" />
   
-     <remote name="alt"
-          fetch="https://github.com/AbrarNoobAlt" />
+      <remote name="los"
+          fetch="https://github.com/LineageOS" 
 
-      <remote name="sp"
-          fetch="https://github.com/Spark-Devices" />
-
-      <remote name="pix"
-          fetch="https://github.com/ArrowOS" />
-
-     <remote name="caf"
-          fetch="https://github.com/VoidUI-CAF" />
-
-     <remote name="clang"
-          fetch="https://gitlab.com/Amritorock" />
-    
-      <remote name="abr"
-          fetch="https://gitlab.com/AbrarNoob" />
-   
-      <remote name="dark"
-          fetch="https://github.com/drkphnx" />
- 
       <remote name="em"
           fetch="https://github.com/EmanuelCN" />
   
  
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="android_device_xiaomi_alioth" remote="alt" revision="pyro" />
-  <project path="device/xiaomi/sm8250-common" name="alioth_device_xiaomi_sm8250-common" remote="alt" revision="pyro" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="sp" revision="pyro" />
-  <project path="vendor/xiaomi/sm8250-common" name="alioth_vendor_xiaomi_sm8250-common" remote="sp" revision="pyro" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="13" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="13" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 
-
-  <remove-project name="android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="dark" revision="aosp-13"/>
+  <remove-project name="android_hardware_xiaomi"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
  
-  <remove-project name="android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="dark" revision="aosp-13"/>
-
-  <remove-project name="android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="dark" revision="aosp-13"/> 
- 
-  <remove-project name="android_system_sepolicy"/>
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="AbrarNoob" revision="13"/> 
- 
-
-  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
-
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="pix" revision="arrow-12.0"/>
-
-  <remove-project name="android_vendor_qcom_opensource_interfaces"/>
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="caf" revision="aosp-12.1"/>
-   
   <!-- Toolchain -->
    
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+   <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-14" remote="em" revision="master" clone-depth="1" />
 
 </manifest>
