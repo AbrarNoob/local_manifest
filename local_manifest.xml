@@ -10,7 +10,12 @@
       <remote name="em"
           fetch="https://github.com/EmanuelCN" />
   
- 
+       <remote name="clang"
+          fetch="https://gitlab.com/Amritorock" />
+
+      <remote name="abr"
+          fetch="https://gitlab.com/AbrarNoob" />
+
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="13" />
@@ -19,11 +24,13 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 
+  <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
+
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
  
   <!-- Toolchain -->
-   
-   <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-14" remote="em" revision="master" clone-depth="1" />
+  
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
