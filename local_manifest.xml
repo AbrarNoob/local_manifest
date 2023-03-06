@@ -26,8 +26,8 @@
 
   <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
 
-  <remove-project name="android_hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
+  <remove-project name="hardware_xiaomi"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="13"/>
  
   <!-- Toolchain -->
   
