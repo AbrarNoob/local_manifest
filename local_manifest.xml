@@ -26,6 +26,16 @@
 
   <project path="vendor/xiaomi/alioth-miuicamera" name="android_vendor_xiaomi_alioth-miuicamera" remote="abr" revision="stable"/>
 
+  <remove-project name="android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-sm8250"/>
+  
+  <remove-project name="android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-sm8250"/>
+
+  <remove-project name="android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-sm8250"/> 
+
+
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-20"/>
  
