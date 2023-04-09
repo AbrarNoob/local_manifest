@@ -42,6 +42,6 @@
   <!-- Toolchain -->
   
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-   <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-14" remote="em" revision="master" clone-depth="1" />
+   <project path="prebuilts/clang/host/linux-x86/ZyC-clang" name="zyc_clang-14" remote="em" revision="master" clone-depth="1" />
 
 </manifest>
