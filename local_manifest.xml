@@ -22,7 +22,7 @@
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="13" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250-1" remote="AbrarNoob" revision="staging" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 
   <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="abr" revision="miui13"/>
 
