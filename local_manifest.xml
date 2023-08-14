@@ -18,11 +18,11 @@
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="derp" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="d" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="13" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="13" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="derp" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="AbrarNoob" revision="13" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="AbrarNoob" revision="staging" />
 
   <project path="vendor/xiaomi/camera" name="android_vendor_xiaomi_camera" remote="abr" revision="miui13"/>
 
@@ -31,6 +31,6 @@
   <!-- Toolchain -->
   
    <project path="prebuilts/clang/host/linux-x86/ZyC-clang" name="zyc_clang-14" remote="em" revision="master" clone-depth="1" />
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+   <project path="prebuilts/clang/host/linux-x86/ name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
