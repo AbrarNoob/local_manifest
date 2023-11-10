@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="AbrarNoob" fetch="https://github.com/AbrarNoob" />
+  <remote name="Abrar" fetch="https://github.com/AbrarNoob" />
   <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="em" fetch="https://github.com/EmanuelCN" />
-  <remote name="carrot" fetch="https://github.com/CarrotgardenAlioth" />
   <remote name="z" fetch="https://github.com/Project-Zephyrus" />
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="AbrarNoob" revision="14" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="carrot" revision="14" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="carrot" revision="14" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="carrot" revision="14" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="Abrar" revision="14" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="Abrar" revision="14" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="Abrar" revision="14" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="Abrar" revision="14" />
   <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="z" revision="staging" />
 
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="AbrarNoob" revision="lineage-20" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Abrar" revision="lineage-20" />
  
 </manifest>
