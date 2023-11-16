@@ -14,6 +14,6 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="Abrar" revision="14" />
   <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="z" revision="staging" />
   <project path="packages/apps/ViPER4AndroidFX" name=" packages_apps_ViPER4AndroidFX" remote="Abrar" revision="v4a" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Abrar" revision="lineage-20" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-21" />
  
 </manifest>
